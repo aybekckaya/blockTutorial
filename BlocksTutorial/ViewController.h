@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import  "PictureLoader.h"
+
+#define IMAGE_URL @"http://cdn.wonderfulengineering.com/wp-content/uploads/2014/03/high-quality-wallpaper-4.jpg"
 
 @interface ViewController : UIViewController
 {
-    
+    UIImageView *imView;
 }
+
 @end

@@ -10,13 +10,15 @@
 
 
 // url , image , dataLength
-typedef void (^ PictureGlobalBlock)(NSString *, UIImage *, NSUInteger);
+typedef void (^ PictureGlobalBlock)(NSString *imStr, UIImage *image, NSUInteger len);
 
 
 @interface PictureLoader : NSObject
 {
     
 }
+
+
 
 -(id)init;
 
