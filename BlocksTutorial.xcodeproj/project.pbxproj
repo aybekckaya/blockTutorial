@@ -21,6 +21,7 @@
 		A3D6B7E319465EEA00CF9CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D6B7C519465EEA00CF9CA0 /* UIKit.framework */; };
 		A3D6B7EB19465EEA00CF9CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D6B7E919465EEA00CF9CA0 /* InfoPlist.strings */; };
 		A3D6B7ED19465EEA00CF9CA0 /* BlocksTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D6B7EC19465EEA00CF9CA0 /* BlocksTutorialTests.m */; };
+		A3DDEBB2194DBB3B00492E13 /* PictureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDEBB1194DBB3B00492E13 /* PictureLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A3D6B7E819465EEA00CF9CA0 /* BlocksTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		A3D6B7EA19465EEA00CF9CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3D6B7EC19465EEA00CF9CA0 /* BlocksTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksTutorialTests.m; sourceTree = "<group>"; };
+		A3DDEBB0194DBB3B00492E13 /* PictureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureLoader.h; sourceTree = "<group>"; };
+		A3DDEBB1194DBB3B00492E13 /* PictureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		A3D6B7C719465EEA00CF9CA0 /* BlocksTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A3DDEBAF194DBB1900492E13 /* PictureLoader */,
 				A3D6B7D019465EEA00CF9CA0 /* AppDelegate.h */,
 				A3D6B7D119465EEA00CF9CA0 /* AppDelegate.m */,
 				A3D6B7D319465EEA00CF9CA0 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				A3D6B7E919465EEA00CF9CA0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3DDEBAF194DBB1900492E13 /* PictureLoader */ = {
+			isa = PBXGroup;
+			children = (
+				A3DDEBB0194DBB3B00492E13 /* PictureLoader.h */,
+				A3DDEBB1194DBB3B00492E13 /* PictureLoader.m */,
+			);
+			name = PictureLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D6B7D819465EEA00CF9CA0 /* ViewController.m in Sources */,
+				A3DDEBB2194DBB3B00492E13 /* PictureLoader.m in Sources */,
 				A3D6B7D219465EEA00CF9CA0 /* AppDelegate.m in Sources */,
 				A3D6B7CE19465EEA00CF9CA0 /* main.m in Sources */,
 			);
@@ -456,6 +470,7 @@
 				A3D6B7F219465EEA00CF9CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D6B7F319465EEA00CF9CA0 /* Build configuration list for PBXNativeTarget "BlocksTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				A3D6B7F519465EEA00CF9CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
